@@ -1,0 +1,57 @@
+html {
+    overflow-y:scroll;
+}
+
+body {
+  padding: 2em;
+  font: 16px "Helvetica Neue", Helvetica, Sans-serif;
+}
+form fieldset {
+  border: 0;
+    font: 12px "Helvetica Neue", Helvetica, Sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 20px;
+  width: 640px;
+}
+
+
+#tableforstats{
+  background-color: #fff;
+  font: 12px "Helvetica Neue", Helvetica, Sans-serif;
+  border: none;
+}
+
+#tableforstats2{
+  background-color: #fff;
+  font: 12px "Helvetica Neue", Helvetica, Sans-serif;
+  border: 0;
+  width: 100%;
+}
+
+#container{
+  border: 0px solid #000;
+  background-color: #fff;
+}
+
+#rangeTable2, #rangeTable {
+  border: 2px solid #f4f4f4;
+}
+#rangeTable2 thead, #rangeTable thead {
+  background-color: #f4f4f4;
+}
+#rangeTable2 td.letter, #rangeTable td.letter {
+  background-color: #f4f4f4;
+  text-align: center;
+  width: 20px
+}
+#rangeTable2 td div, #rangeTable td div {
+  height: 20px
+}
+#rangeTable2 td div.firstBlock, #rangeTable td div.firstBlock {
+  border-right: 2px solid #f00;
+}
+
+#rangeTable2 td div.range, #rangeTable td div.range {
+  background-color: #f00;
+}
